@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+History
+{% endblock %}
+
+{% block link %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+crossorigin="anonymous">
+{% endblock %}
+
+{% block body %}
+<br />
+<h2> Welcome to the History Page</h2>
+<h3>Here you can see all previously Shortened URLS's</h3>
+<br />
+<ul>
+{% for url in history %}
+    <li>{{ url }}</li>
+{% endfor %}
+</ul>
+{% endblock %}
