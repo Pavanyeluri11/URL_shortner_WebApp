@@ -6,4 +6,4 @@ Sometimes we need to share or send links and this can be tiresome and annoying t
 * Database connection using ORM SQLAlchemy
 * Flask (Python) backend.
 
-![Url_shortner_homepage](C:\VS code Programs "homepage")
+![Url_shortner_homepage](https://github.com/Pavanyeluri11/URL_shortner_WebApp"homepage")
